@@ -1,0 +1,29 @@
+@media (min-width: 1366px)
+{
+    #containerID.inactive
+    {
+        margin-left:-50px;
+        width:85%;
+    }
+
+    #sidebar
+    {
+        font-size:90%;
+    }
+
+    #contentID
+    {
+        width:92vw;
+    }
+
+    #containerID.inactive
+    {
+        margin-left:-12vw;
+        width:92vw;
+    }
+
+    #containerID.active
+    {
+        display:none;
+    }
+}

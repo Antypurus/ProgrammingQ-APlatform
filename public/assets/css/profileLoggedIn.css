@@ -1,0 +1,38 @@
+@media (max-width: 480px) {
+    #contentID
+    {
+        width:100%;
+        margin-left:10%;
+    }
+
+    #jumbotronID.active
+    {
+        margin-left:-47vw;
+        margin-top:-40px;
+    }
+}
+
+@media (min-width:1366px) 
+{
+    #sidebar
+    {
+        min-width:17.2vw;
+        max-width:17.2vw;
+        font-size:90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1366px) 
+{
+    #sidebar
+    {
+        font-size:90%;
+    }
+}
+
+@media (max-width: 361px) {
+    .profileButtons
+    {
+        width:60vw;
+    }
+}

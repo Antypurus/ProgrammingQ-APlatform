@@ -1,0 +1,56 @@
+@media (min-width: 1366px)
+{
+    ul.pagination
+    {
+        margin-left:25.8vw;
+    }
+
+    #classContainerID
+    {
+        margin-left:7vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1366px) 
+{
+    #sidebar
+    {
+        min-width:17.2vw;
+        max-width:17.2vw;
+        font-size:90%;
+    }
+
+    .adminTable
+    {
+        max-width:77vw;
+        overflow:auto;
+        margin-left:0px;
+    }
+}
+
+@media (max-width: 361px) 
+{
+    input#userName.form-control + div
+    {
+        z-index:0;
+    }
+
+    input#userName.form-control
+    {
+        max-width:90vw;
+        margin-left:90px;
+        z-index:0;
+    }
+
+    .adminTable
+    {
+        max-width:80vw;
+        overflow:auto;
+        margin-left:60px;
+    }
+
+    ul.pagination
+    {
+        margin-left:60px;
+    }
+}
